@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/your_opinion"
+    tools:context="com.example.andreas.mandatorycanteenapp.RateInformationActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To make sure the canteen will present food that you like give the food a rating between 1-5 stars.
+Rating the food is your way of influencing what is on the menu."
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="14dp"/>
+
+</LinearLayout>
